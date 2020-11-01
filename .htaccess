@@ -1,0 +1,5 @@
+<FilesMatch "\.json$">
+ Order deny,allow
+ Deny from all
+</FilesMatch>
+AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
